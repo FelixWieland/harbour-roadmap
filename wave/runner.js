@@ -22,4 +22,5 @@ function init() {
 
 document.getElementById("hb-hamburger").addEventListener("click", function () {
     this.classList.toggle("is-active");
+    document.getElementById("hb-menu").classList.toggle("hb-menu-active");
 }, false);
